@@ -28,7 +28,7 @@ function sendEmail(to, name) {
 }
 
 function startScheduler() {
-  cron.schedule("* * * * *", async () => {
+  cron.schedule("0 7 * * *", async () => {
     const today = new Date();
     const users = await User.find();
 
