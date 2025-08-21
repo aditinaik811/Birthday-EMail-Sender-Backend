@@ -18,7 +18,7 @@ function sendEmail(to, name) {
     from: process.env.EMAIL_USER,
     to,
     subject: "🎉 Happy Birthday!",
-    html: `<h2>Hey ${name}!</h2><p>Wishing you a fantastic birthday! 🎂🥳</p>`
+    html: `<h2>Hey ${name}!</h2><p>"🎂🥳 Wishing you a fantastic birthday! 🎈💐 May God bless you with prosperity 💰, good health 🧘‍♀️🍀, and endless happiness 😄🌟. Enjoy your special day to the fullest 🎊🎁🎶 and keep smiling always! 💖😊"</p>`
   };
 
   transporter.sendMail(mailOptions, (err, info) => {
