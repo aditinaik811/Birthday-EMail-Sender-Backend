@@ -40,7 +40,7 @@ function startScheduler() {
     });
   });
 
-  console.log("⏰ Birthday email scheduler running (every day at 9 AM)");
+  console.log(" Birthday email scheduler running (every day at 9 AM)");
 }
 
 module.exports = startScheduler;
